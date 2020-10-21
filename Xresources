@@ -1,0 +1,20 @@
+xterm*background: #0d2221
+xterm*foreground: lightgray
+
+xterm*faceName: Fira Code VF
+xterm*visualBell: False
+
+xterm*VT100.Translations: #override \
+		Ctrl Shift <Key>V:	insert-selection(CLIPBOARD) \n\
+		Ctrl Shift <Key>C:	copy-selection(CLIPBOARD)
+
+URxvt*font: xft:DejaVu Sans Mono: size=10
+URxvt*boldFont: xft:DejaVu Sans Mono: size=10
+URxvt*background: #0d2221
+URxvt*foreground: lightgray
+URxvt*scrollBar: false
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt*VT100.Translations: #override \
+		Ctrl Shift <Key>V:	insert-selection(CLIPBOARD) \n\
+		Ctrl Shift <Key>C:	copy-selection(CLIPBOARD)
